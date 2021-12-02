@@ -1,0 +1,53 @@
+body{
+    background: lightcoral;
+    font-family: cursive;
+}
+
+h1{
+    color: darkslateblue;
+    transition: 0.5s;
+}
+
+h1:hover{
+    color: darkslategray;
+    letter-spacing: 5px;
+    transition: 0.5s;
+}
+
+button{
+    height: 30px;
+    font-size: 20px;
+    width: 15%;
+    background:cadetblue;
+    color: black;
+    border: 0px;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-top: 3px;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+button:hover{
+    background: black;
+    color: white;
+    transition: 0.5s;
+}
+
+table{
+    background: transparent;
+    color: black;
+    border: 0px solid transparent;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+form input[type=text]{
+    border: 0px;
+    border-radius: 6px;
+    height: 35px;
+    width: 100%;
+    font-family: cursive;
+    font-size: 30px;
+}
